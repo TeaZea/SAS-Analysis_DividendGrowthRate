@@ -12,14 +12,14 @@ This readme will speak to the experiences of the project as well as give a littl
 ---
 
 ### Dataset
-The dataset is fairly simple and was inputted manually. There is currently no pipeline inplace to collect this data. I feel like manual insertion of datapoints is good enough as the portfolio is small and required minimal work.
+The dataset is fairly simple and was inputted manually. There is currently no pipeline in place to collect this data. I feel like manual insertion of datapoints is good enough as the portfolio is small and required minimal work.
 
 ![dataset used for analysis](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/ds.jpg)
 
 ---
 
 ### Overview of the code
-I decided to clean up the data a bit and add a growth average variable (column) by creating a DO LOOP to iterate through the data (rows). This will be the variable that I conducted the analysis with.
+I decided to clean up the data a bit and add a growth average variable (column) by creating a DO LOOP to iterate through the data (rows). This will be the variable that I conduct the analysis with.
 
 ![Code for creating a new variable](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/growthaveragepct.jpg)
 

@@ -2,12 +2,12 @@
 ### TLDR;
 This is a basic data science project on proving true mean/median and calculating an accurate dividend growth rate. This is my first data science project; albeit with a relativly easy concept. I noticed that there were some individual stocks that were giving the impression that the porfolio was performing better than average. The analysis was conducted to determine if that was the case or not.
 
-This readme will speak to the experiences of the project as well as give a little more insight at a micro-level in regards to the code. The PDF speaks to the actual analysis more.
+This readme will speak to the experiences of the project as well as give a little more insight at a micro-level in regards to the [code](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Analysis.sas). The [PDF](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Rate%20Analysis%202023.pdf) speaks to the actual analysis more.
 
 ---
 
 ### Setup
-Simply download then upload the file into SAS Studio.
+[Simply download then upload the file into SAS Studio.](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Analysis.sas)
 
 ---
 
@@ -32,6 +32,8 @@ Analysis was conducted by observing the normal attributes of the data. The MU an
 This is just a simple loop that removes the specified outliers from the dataset before the analysis is replicated without them.
 
 ![Simple observation cleanup](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/obs_cleanup.jpg)
+
+[You can find the full analysis here.](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Rate%20Analysis%202023.pdf)
 
 ---
 

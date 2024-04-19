@@ -2,7 +2,7 @@
 ### TLDR;
 This is a basic data science project on proving true mean/median and calculating an accurate dividend growth rate. This is my first data science project; albeit with a relativly easy concept. I noticed that there were some individual stocks that were giving the impression that the porfolio was performing better than average. The analysis was conducted to determine if that was the case or not.
 
-This readme will speak to the experiences of the project as well as give a little more insight at a micro-level in regards to the [code](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Analysis.sas). The [PDF](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Rate%20Analysis%202023.pdf) speaks to the actual analysis more.
+This readme will speak to the experiences of the project as well as give a little more insight at a micro-level in regards to the [code](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Analysis.sas). The [PDF](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Rate%20Analysis%202023.pdf) speaks more so to the actual analysis.
 
 ---
 
@@ -24,7 +24,7 @@ I decided to clean up the data a bit and add a growth average variable (column) 
 ![Code for creating a new variable](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/growthaveragepct.jpg)
 
 
-Analysis was conducted by observing the normal attributes of the data. The MU and SIGMA are also kept with their default values. This is important because I wanted to confirm a normal distribution of the data. The reference line for the box plot is set to the median (2.08) as data was too volatile.
+Analysis is conducted by observing the normal attributes of the data. The MU and SIGMA are also kept with their default values. This is important because I want to confirm a normal distribution of the data. The reference line for the box plot is set to the median (2.08) as data is too volatile.
 
 ![PROC MEANS, UNIVARIATE and SGPLOT](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/analysis_and_charts.jpg)
 

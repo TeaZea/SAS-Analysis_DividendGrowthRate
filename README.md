@@ -16,7 +16,11 @@ The dataset is fairly simple and was inputted manually. There is currently no pi
 ---
 
 ### Overview of the code
-*_insert commentary here_*
+I decided to clean up the data a bit and add a growth average column by creating a DO LOOP to iterate through the variables (rows). This will be the variable that I conducted the analysis with.
+
+Analysis was conducted by observing the normal attributes of the data. The MU and SIGMA are also kept with their default values. This is important because I wanted to confirm a normal distribution of the data. The reference line for the box plot is set to the median (2.08) as data was too volatile.
+
+This is just a simple loop that removes the specified outliers from the dataset before the analysis is replicated without them.
 
 ---
 

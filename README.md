@@ -13,18 +13,24 @@ Simply download then upload the file into SAS Studio.
 
 ### Dataset
 The dataset is fairly simple and was inputted manually. There is currently no pipeline inplace to collect this data. I feel like manual insertion of datapoints is good enough as the portfolio is small and required minimal work.
+
 ![dataset used for analysis](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/ds.jpg)
 
 ---
 
 ### Overview of the code
 I decided to clean up the data a bit and add a growth average variable (column) by creating a DO LOOP to iterate through the data (rows). This will be the variable that I conducted the analysis with.
+
 ![Code for creating a new variable](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/growthaveragepct.jpg)
 
+
 Analysis was conducted by observing the normal attributes of the data. The MU and SIGMA are also kept with their default values. This is important because I wanted to confirm a normal distribution of the data. The reference line for the box plot is set to the median (2.08) as data was too volatile.
+
 ![PROC MEANS, UNIVARIATE and SGPLOT](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/analysis_and_charts.jpg)
 
+
 This is just a simple loop that removes the specified outliers from the dataset before the analysis is replicated without them.
+
 ![Simple observation cleanup](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/obs_cleanup.jpg)
 
 ---

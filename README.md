@@ -1,5 +1,6 @@
 # SAS Analysis - Dividend Growth Rate
-### TLDR; This is a basic data science project on proving true mean/median and calculating an accurate dividend growth rate. 
+### TLDR;
+This is a basic data science project on proving true mean/median and calculating an accurate dividend growth rate. 
 
 ---
 
@@ -8,4 +9,10 @@ Simply download then upload the file into SAS Studio.
 
 ---
 
-### Challenges
+### Details
+*_insert commentary here_*
+
+---
+
+### Overview of the code
+*_insert commentary here_*

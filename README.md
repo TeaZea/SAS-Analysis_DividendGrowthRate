@@ -2,6 +2,8 @@
 ### TLDR;
 This is a basic data science project on proving true mean/median and calculating an accurate dividend growth rate. This is my first data science project; albeit with a relativly easy concept. I noticed that there were some individual stocks that were giving the impression that the porfolio was performing better than average. The analysis was conducted to determine if that was the case or not.
 
+This readme will speak to the experiences of of the project as well as give a little more insight at a micro-level in regards to the code. The PDF speaks to the actual analysis more.
+
 ---
 
 ### Setup
@@ -16,11 +18,14 @@ The dataset is fairly simple and was inputted manually. There is currently no pi
 ---
 
 ### Overview of the code
-I decided to clean up the data a bit and add a growth average column by creating a DO LOOP to iterate through the variables (rows). This will be the variable that I conducted the analysis with.
+I decided to clean up the data a bit and add a growth average variable (column) by creating a DO LOOP to iterate through the data (rows). This will be the variable that I conducted the analysis with.
+![Code for creating a new variable](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/growthaveragepct.jpg)
 
 Analysis was conducted by observing the normal attributes of the data. The MU and SIGMA are also kept with their default values. This is important because I wanted to confirm a normal distribution of the data. The reference line for the box plot is set to the median (2.08) as data was too volatile.
+![PROC MEANS, UNIVARIATE and SGPLOT](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/analysis_and_charts.jpg)
 
 This is just a simple loop that removes the specified outliers from the dataset before the analysis is replicated without them.
+![Simple observation cleanup](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/obs_cleanup.jpg)
 
 ---
 

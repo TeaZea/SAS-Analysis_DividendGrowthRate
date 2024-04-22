@@ -12,7 +12,7 @@ This readme will speak to the experiences of the project as well as give a littl
 ---
 
 ### Dataset
-The dataset is fairly simple and was inputted manually. There is currently no pipeline in place to collect this data. I feel like manual insertion of datapoints is good enough as the portfolio is small and required minimal work.
+The dataset is fairly simple and was inputted manually. There is currently no pipeline in place to collect this data. I feel like manual insertion of datapoints is good enough as the portfolio is small and required minimal work. More about the dataset and key variables can be found in the [analysis pdf](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Rate%20Analysis%202023.pdf).
 
 ![dataset used for analysis](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/ds.jpg)
 

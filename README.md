@@ -7,7 +7,7 @@ This readme will speak to the experiences of the project as well as give a littl
 ---
 
 ### Setup
-[Simply download then upload the file into SAS Studio.](https://github.com/TeaZea/SAS-Analysis_DividendGrowthRate/blob/main/Dividend%20Growth%20Analysis.sas)
+Simply download both the .sas and the dataset, then upload the file into SAS Studio.
 
 ---
 
